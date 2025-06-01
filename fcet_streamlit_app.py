@@ -29,7 +29,7 @@ LANGUAGES = {
         "processing": "📽️ Processing image, please wait...",
         "compare": "🧪 Compare Original & Enhanced",
         "language": "🌐 Select Language",
-        "footer": "🚀 Developed with ❤️ for advanced grayscale image analysis.\n📬 For feedback, reach out at: `your-email@example.com`"
+        "footer": "🚀 Developed with ❤️ for advanced grayscale image analysis.\n📬 For feedback, reach out at: `pradhanpramit3006@gmail.com`"
     },
     "es": {
         "title": "🖼️✨ Transformación de Mejora de Contraste Preservando Características (FCET)",
@@ -48,7 +48,7 @@ LANGUAGES = {
         "processing": "📽️ Procesando imagen, por favor espere...",
         "compare": "🧪 Comparar imagen original y mejorada",
         "language": "🌐 Seleccionar idioma",
-        "footer": "🚀 Desarrollado con ❤️ para análisis avanzado de imágenes en escala de grises.\n📬 Para comentarios, contáctanos en: `your-email@example.com`"
+        "footer": "🚀 Desarrollado con ❤️ para análisis avanzado de imágenes en escala de grises.\n📬 Para comentarios, contáctanos en: `pradhanpramit3006@gmail.com`"
     },
     "hi": {
         "title": "🖼️✨ फीचर-प्रिज़र्विंग कंट्रास्ट एन्हांसमेंट ट्रांसफॉर्म (FCET)",
@@ -67,7 +67,7 @@ LANGUAGES = {
         "processing": "📽️ छवि संसाधित की जा रही है, कृपया प्रतीक्षा करें...",
         "compare": "🧪 मूल और संवर्धित छवि की तुलना करें",
         "language": "🌐 भाषा चुनें",
-        "footer": "🚀 उन्नत ग्रेस्केल छवि विश्लेषण के लिए ❤️ के साथ विकसित।\n📬 प्रतिक्रिया के लिए संपर्क करें: `your-email@example.com`"
+        "footer": "🚀 उन्नत ग्रेस्केल छवि विश्लेषण के लिए ❤️ के साथ विकसित।\n📬 प्रतिक्रिया के लिए संपर्क करें: `pradhanpramit3006@gmail.com`"
     },
     "ja": {
         "title": "🖼️✨ 特徴保持型コントラスト強調変換 (FCET)",
@@ -86,7 +86,7 @@ LANGUAGES = {
         "processing": "📽️ 画像を処理中です。お待ちください...",
         "compare": "🧪 元画像と強調画像を比較",
         "language": "🌐 言語を選択",
-        "footer": "🚀 高度なグレースケール画像解析のために❤️で開発されました。\n📬 フィードバックはこちらへ: `your-email@example.com`"
+        "footer": "🚀 高度なグレースケール画像解析のために❤️で開発されました。\n📬 フィードバックはこちらへ: `pradhanpramit3006@gmail.com`"
     },
     "de": {
         "title": "🖼️✨ Merkmals-erhaltende Kontrastverstärkungstransformation (FCET)",
@@ -105,7 +105,7 @@ LANGUAGES = {
         "processing": "📽️ Bild wird verarbeitet, bitte warten...",
         "compare": "🧪 Original und verstärkt vergleichen",
         "language": "🌐 Sprache auswählen",
-        "footer": "🚀 Entwickelt mit ❤️ für fortschrittliche Graustufenbildanalyse.\n📬 Für Feedback kontaktieren Sie: `your-email@example.com`"
+        "footer": "🚀 Entwickelt mit ❤️ für fortschrittliche Graustufenbildanalyse.\n📬 Für Feedback kontaktieren Sie: `pradhanpramit3006@gmail.com`"
     },
     "fr": {
         "title": "🖼️✨ Transformation d’Amélioration du Contraste Préservant les Caractéristiques (FCET)",
@@ -124,7 +124,7 @@ LANGUAGES = {
         "processing": "📽️ Traitement de l’image, veuillez patienter...",
         "compare": "🧪 Comparer l’original et l’amélioré",
         "language": "🌐 Sélectionnez la langue",
-        "footer": "🚀 Développé avec ❤️ pour l’analyse avancée des images en niveaux de gris.\n📬 Pour vos retours, contactez : `your-email@example.com`"
+        "footer": "🚀 Développé avec ❤️ pour l’analyse avancée des images en niveaux de gris.\n📬 Pour vos retours, contactez : `pradhanpramit3006@gmail.com`"
     }
 }
 
