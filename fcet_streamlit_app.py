@@ -152,7 +152,7 @@ def convert_to_grayscale(image: np.ndarray) -> np.ndarray:
 st.set_page_config(page_title="🔬 FCET Image Enhancer", layout="wide", page_icon="🧠")
 
 # Sidebar: Language selector
-lang = st.sidebar.selectbox("🌐 Select Language / Seleccionar idioma", options=["en", "es", "hi", "ja", "de", "fr"])
+lang = st.sidebar.selectbox("🌐 Select Language ", options=["en", "es", "hi", "ja", "de", "fr"])
 t = LANGUAGES[lang]
 
 # Custom CSS Styling
