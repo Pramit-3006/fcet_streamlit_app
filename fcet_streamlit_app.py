@@ -30,7 +30,7 @@ LANGUAGES = {
         "compare": "🧪 Compare Original & Enhanced",
         "language": "🌐 Select Language",
         "footer": "🚀 Developed with ❤️ for advanced grayscale image analysis.\n📬 For feedback, reach out at: `your-email@example.com`"
-    }
+    },
     "es": {
         "title": "🖼️✨ Transformación de Mejora de Contraste Preservando Características (FCET)",
         "purpose": "🎯 **Propósito:** Mejorar imágenes médicas y en escala de grises con una técnica amigable de contraste.",
@@ -49,7 +49,7 @@ LANGUAGES = {
         "compare": "🧪 Comparar imagen original y mejorada",
         "language": "🌐 Seleccionar idioma",
         "footer": "🚀 Desarrollado con ❤️ para análisis avanzado de imágenes en escala de grises.\n📬 Para comentarios, contáctanos en: `your-email@example.com`"
-    }
+    },
     "hi": {
         "title": "🖼️✨ फीचर-प्रिज़र्विंग कंट्रास्ट एन्हांसमेंट ट्रांसफॉर्म (FCET)",
         "purpose": "🎯 **उद्देश्य:** चिकित्सा और ग्रेस्केल छवियों को मानव-मित्रवत कंट्रास्ट तकनीक से बेहतर बनाएं।",
