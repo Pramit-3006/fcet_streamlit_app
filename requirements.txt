@@ -5,6 +5,6 @@ opencv-python>=4.9.0.80
 torch>=2.2.0
 matplotlib>=3.8.0
 streamlit-image-comparison
-
+streamlit_drawable_canvas
 
 
