@@ -5,4 +5,5 @@ Pillow
 matplotlib
 seaborn
 pandas
+cv2
 
