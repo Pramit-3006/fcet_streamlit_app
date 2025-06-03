@@ -127,17 +127,7 @@ LANGUAGES = {
     }
 }
 
-
-# Alternative to OpenCV: Replace cv2 with PIL for grayscale conversion
-def convert_to_grayscale(image: np.ndarray) -> np.ndarray:
-    if image.ndim == 3:
-        # Convert RGB to grayscale using PIL
-        pil_image = Image.fromarray(image)
-        gray_image = pil_image.convert("L")
-        return np.array(gray_image)
-    return image
-
-# FCET Enhancement Function remains unchanged
+# Core FCET Enhancement Function
 def fcet_contrast_enhancement(image: np.ndarray, alpha: float = 0.8) -> tuple:
     L = 256
     g_k = np.zeros(L, dtype=np.int32)
@@ -152,6 +142,13 @@ def fcet_contrast_enhancement(image: np.ndarray, alpha: float = 0.8) -> tuple:
     enhanced_image = T_k_scaled[image]
     return enhanced_image, g_k, d_k, T_k_scaled
 
+def convert_to_grayscale(image: np.ndarray) -> np.ndarray:
+    if image.ndim == 3:
+        pil_image = Image.fromarray(image)
+        gray_image = pil_image.convert("L")  # Convert to grayscale
+        return np.array(gray_image)
+    return image
+    
 # Streamlit UI
 st.set_page_config(page_title="🔬 FCET Image Enhancer", layout="wide", page_icon="🧠")
 
@@ -212,23 +209,8 @@ if uploaded_file is not None:
     with col2:
         st.subheader(t["enhanced_subheader"])
         st.image(enhanced_img, channels="GRAY", use_column_width=True, caption=t["enhanced_subheader"])
-# Theme toggle
-theme = st.selectbox("Choose Theme", ["Light", "Dark"])
-if theme == "Dark":
-    st.markdown("<style>body {background-color: #1e1e1e; color: white;}</style>", unsafe_allow_html=True)
-else:
-    st.markdown("<style>body {background-color: white; color: black;}</style>", unsafe_allow_html=True)
-from streamlit_image_comparison import image_comparison
 
-image_comparison(
-    img1="original_image.jpg",
-    img2="enhanced_image.jpg",
-    label1="Original",
-    label2="Enhanced",
-    width=700,
-)
-
- # Image Comparison Slider with HTML/JS
+    # Image Comparison Slider with HTML/JS
     st.subheader(t["compare"])
 
     from streamlit.components.v1 import html
